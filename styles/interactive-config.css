@@ -1,0 +1,60 @@
+.interactive-config {
+}
+
+.interactive-config-item {
+  padding-bottom: 5px;
+  /* width: 450px; */
+  border-bottom: 1px solid #f8f9fa;
+  margin-bottom: 10px;
+}
+
+.interactive-config-item .main {
+  display: flex;
+}
+
+.interactive-config-item .name {
+  font-size: 20px;
+  color: #941100;
+  font-weight: bold;
+  font-family: monospace;
+  width: 33%;
+  display: inline-block;
+  background-color: #F8F8F8;
+}
+
+.interactive-config-item .control {
+  width: 33%;
+  display: inline-block;
+  background-color: #E0E0E0;
+}
+
+.interactive-config-item .control select{
+  width: auto;
+}
+
+.interactive-config-item .toggle {
+  display: inline-block;
+  width: 33%;
+  color: blue;
+  cursor: pointer;
+  user-select: none;
+  font-style: italic;
+  background-color: #F8F8F8;
+}
+
+.interactive-config-item .toggle::after {
+  content: 'show details';
+  display: inline-block;
+}
+
+.interactive-config-item.expanded .toggle::after {
+  content: 'hide details';
+}
+
+.interactive-config-item.expanded .details {
+  display: block;
+}
+
+.interactive-config-item .details {
+  display: none;
+}

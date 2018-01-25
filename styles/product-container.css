@@ -1,0 +1,9 @@
+.product-container {
+  width: auto;
+  height: 400px;
+  background: #f8f9fa;
+  margin-bottom: 40px;
+  color: #868e96;
+  text-align: center;
+  line-height: 400px;
+}
