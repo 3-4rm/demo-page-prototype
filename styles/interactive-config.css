@@ -10,6 +10,7 @@
 
 .interactive-config-item .main {
   display: flex;
+  background-color: #F8F8F8;
 }
 
 .interactive-config-item .name {
@@ -58,6 +59,7 @@
 
 .interactive-config-item.expanded .details {
   display: block;
+  background-color: #F8F8F8;
 }
 
 .interactive-config-item .details {
