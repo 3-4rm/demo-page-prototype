@@ -29,7 +29,12 @@
 }
 
 .interactive-config-item .control select{
-  width: auto;
+  width: 94%;
+  height: 100%;
+  border: 1px solid gray;
+  border-radius: 0px;
+  margin: auto;
+  display: block;
 }
 
 .interactive-config-item .toggle {
